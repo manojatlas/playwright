@@ -40,6 +40,7 @@ jobs:
           python3.10 -m pip install poetry
           python3.10 -m poetry install
           pwd
+          ls
           
       - name: Run behave tests
         if: always()
